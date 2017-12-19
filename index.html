@@ -3,7 +3,8 @@
 <style>
   body { text-align: center; padding: 150px; }
   span.status { font-size: 50px; font-weight: bold; }
-  span.down-major { color: red; }
+  span.status-normal { color: green; }
+  span.status-major { color: red; }
   body { font: 20px Helvetica, sans-serif; color: #333; }
   article { display: block; text-align: left; width: 650px; margin: 0 auto; }
   a { color: #dc8100; text-decoration: none; }
@@ -11,11 +12,26 @@
   div.message { top: -20px; }
 </style>
 
+<!-- Status: Normal -->
 <article>
     <div class="message">
-        <span class="status down-major">Major Outrage</span>
+        <span class="status status-major">Fully Operational</span>
+        <br />
+        <p>Services are operating as normal.<br />Any services down? <a href="mailto:contact@tfvlondon.co.uk">Contact us</a>!</p>
+        <p>&mdash; TFVL Team</p>
+    </div>
+</article>
+<!-- Status End -->
+
+<!-- Status: Major
+<article>
+    <div class="message">
+        <span class="status status-major">Major Outrage</span>
         <br />
         <p>We are currently experiencing a major outrage with our website. We are trying to resolve this ASAP.<br />If you need to you can always <a href="mailto:contact@tfvlondon.co.uk">contact us</a>.</p>
         <p>&mdash; TFVL Team</p>
     </div>
 </article>
+ Status End -->
+
+
